@@ -153,4 +153,26 @@
       doAnimations($animatingElems);
     });
   })(jQuery);
- 
+ $(".dropdown-toggle").on("click", function(){
+    $(".justHide").each(function(){
+        if($(this).attr("class").includes("show")){
+            $(this).removeClass("show");
+        }
+    })
+ });
+  $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+      
+    if (!$(this).next().hasClass('show')) {
+      $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+    }
+    var $subMenu = $(this).next(".dropdown-menu");
+    $subMenu.toggleClass('show');
+    $subMenu.addClass("show");
+  
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+      $('.dropdown-submenu .show').removeClass("show");
+    });
+  
+  
+    return false;
+  });
