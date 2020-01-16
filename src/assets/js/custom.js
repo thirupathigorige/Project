@@ -153,6 +153,7 @@
       doAnimations($animatingElems);
     });
   })(jQuery);
+  
  $(".dropdown-toggle").on("click", function(){
     $(".justHide").each(function(){
         if($(this).attr("class").includes("show")){
