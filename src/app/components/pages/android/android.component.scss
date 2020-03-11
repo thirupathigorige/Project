@@ -7,7 +7,9 @@
 }
 .innerpage-banner{
     background-size: cover;
-    background-image:url("src/assets/img/iphone_landing.jpg");
+    background-image:url("src/assets/img/android.png");
+    background-position: center center;
+    background-attachment: fixed;
     min-height: 740px;
 }
 .in-banner-content {
@@ -19,11 +21,12 @@
     padding-right: 15px;
 }
 .in-banner-content>h1 {
-    font-family: proxima-nova,sans-serif;
+    font-family: proxima-nova, sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     font-size: 45px;
-    letter-spacing: .65px;
+    background-color: #17ad34;
+    letter-spacing: 0.65px;
 }
 .in-banner-content p {
     font-family: proxima-nova,sans-serif;

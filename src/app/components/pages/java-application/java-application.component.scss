@@ -7,7 +7,7 @@
 }
 .innerpage-banner{
     background-size: cover;
-    background-image:url("src/assets/img/iphone_landing.jpg");
+    background-image:url("src/assets/img/Java_Banner.jpeg");
     min-height: 740px;
 }
 .in-banner-content {
@@ -19,11 +19,12 @@
     padding-right: 15px;
 }
 .in-banner-content>h1 {
-    font-family: proxima-nova,sans-serif;
+    font-family: proxima-nova, sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     font-size: 45px;
-    letter-spacing: .65px;
+    letter-spacing: 0.65px;
+    background-color: #15ff00;
 }
 .in-banner-content p {
     font-family: proxima-nova,sans-serif;
@@ -119,14 +120,14 @@
 }
 .mobile_Box ul li .mobile_Box_Chat {
     width: 167px;
-    height: 167px;
+    height: 200px;
     border-radius: 0;
     padding: 24px 15px 0;
 }
 .mobile_Box_Chat {
     background: #fff;
     width: 169px;
-    height: 169px;
+    height: 200px;
     border-radius: 14px;
     text-align: center;
     padding-top: 34px;

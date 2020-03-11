@@ -38,7 +38,9 @@
                 "src/assets/css/progresscircle.min.css",
                 "src/assets/css/style.scss",
                 "src/assets/css/responsive.scss",
-                "src/styles.scss"
+                "src/styles.scss",
+                "node_modules/aos/dist/aos.css"
+                
             ],
             "scripts": [
                 "node_modules/jquery/dist/jquery.min.js",
@@ -48,7 +50,8 @@
                 "src/assets/js/parallax.min.js",
                 "src/assets/js/progresscircle.min.js",
                 "src/assets/js/wow.min.js",
-                "src/assets/js/custom.js"
+                "src/assets/js/custom.js",
+                "node_modules/aos/dist/aos.js"
             ]
           },
           "configurations": {

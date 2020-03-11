@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationStart, NavigationCancel, NavigationEnd } from '@angular/router';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { filter } from 'rxjs/operators';
+import * as AOS from "aos";
 declare let $: any;
 
 @Component({
@@ -24,6 +25,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.recallJsFuntions();
+        AOS.init();
     }
 
     recallJsFuntions() {
