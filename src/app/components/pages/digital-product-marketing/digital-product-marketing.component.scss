@@ -7,7 +7,7 @@
 }
 .innerpage-banner{
     background-size: cover;
-    background-image:url("src/assets/img/iphone_landing.jpg");
+    background-image:url("src/assets/img/digital marketing1.png");
     min-height: 740px;
 }
 .in-banner-content {
@@ -179,7 +179,7 @@
     margin: 0;
 }
 .kpProgram .col-md-4 {
-    height: 300px;
+    // height: 300px;
     margin-top: 41px;
     -webkit-box-shadow: 14px 4px 36px 19px #f8f8f8;
     padding: 30px;
@@ -205,4 +205,9 @@
 }
 .list li{
     font-size: 16px;
+}
+.card-text{
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }

@@ -3308,14 +3308,14 @@ blockquote, .blockquote {
 Page Title Area CSS
 =================================================*/
 .page-title-area {
-    position: relative;
-    z-index: 1;
-    background: transparent url(../../assets/img/page-title-bg.jpg) right top no-repeat;
+    background: transparent url(../../assets/img/AboutUs.jpg) no-repeat;
     text-align: center;
-    padding: {
-        top: 190px;
-        bottom: 100px;
-    }
+    background-size: cover;
+    min-height: 740px;
+    // padding: {
+    //     top: 190px;
+    //     bottom: 100px;
+    // }
 }
 .page-title-content {
     h2 {
